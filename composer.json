@@ -1,0 +1,21 @@
+{
+	"name": "shahbaz/magic-php-rest-api",
+	"description": "Secured Simple REST API in PHP with Magic",
+	"type": "project",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Mohammad Shahbaz Alam",
+			"email": "shahbaz@magic.link"
+		}
+	],
+	"require": {
+		"vlucas/phpdotenv": "^5.3",
+		"magiclabs/magic-admin-php": "^0.1.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Src\\": "src/"
+		}
+	}
+}
